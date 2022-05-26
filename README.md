@@ -1,6 +1,6 @@
 # 读我
 
-本仓库可视为在原始仓库基础上追加中文翻译，原始 [英文 ENGLISH](./original_README.md)。
+本仓库可视为在原始仓库基础上追加中文翻译，查看原始 [英文 ENGLISH](./original_README.md) 读我，原始仓库地址为：https://github.com/munificent/craftinginterpreters ，原始在线英文网站为：www.craftinginterpreters.com/ 。
 
 ### 翻译说明
 
