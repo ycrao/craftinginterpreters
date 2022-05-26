@@ -1,6 +1,6 @@
 # 读我
 
-本仓库可视为在原始仓库基础上追加中文翻译，查看原始 [英文 ENGLISH](./original_README.md) 读我，原始仓库地址为：https://github.com/munificent/craftinginterpreters ，原始在线英文网站为：www.craftinginterpreters.com/ 。
+本仓库可视为在原始仓库基础上追加中文翻译，查看原始 [英文 ENGLISH](./original_README.md) 读我，原始仓库地址为：[munificent/craftinginterpreters](https://github.com/munificent/craftinginterpreters) ，原始在线英文网站为：[craftinginterpreters.com](https://www.craftinginterpreters.com/) 。
 
 ### 翻译说明
 
@@ -24,4 +24,9 @@ make book
 make serve
 ```
 
-生成的译文静态页面位于 [site_zh](./site_zh/) 文件夹下，原始英文静态页面位于老的 [site](./site/) 文件下不受影响。
+生成的译文静态页面位于 [site_zh](./site_zh/) 文件夹下，原始英文静态页面位于老的 [site](./site/) 文件夹下不受影响。
+
+### 特别感谢
+
+- 为了节省时间，前面十几章节后面可能考虑使用 [GuoYaxiang/craftinginterpreters_zh](https://github.com/GuoYaxiang/craftinginterpreters_zh) 的译文，这里特别感谢该译者的付出。
+- 由于涉及到静态页面，同时需要对 HTML 页面上某些跳转条目同步做中文翻译，呼吁大家一起参与到翻译工作中。
