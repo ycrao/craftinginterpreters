@@ -33,10 +33,10 @@ class Page {
   String get fileName => toFileName(title);
 
   /// The path to this page's Markdown source file.
-  String get markdownPath => p.join("book", "$fileName.md");
+  String get markdownPath => p.join("book_zh", "$fileName.md");
 
   /// The path to this page's generated HTML file.
-  String get htmlPath => p.join("site", "$fileName.html");
+  String get htmlPath => p.join("site_zh", "$fileName.html");
 
   /// Whether this page is a chapter page, as opposed to a part.
   bool get isChapter => part != null;
