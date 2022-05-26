@@ -1,17 +1,21 @@
-> Fairy tales are more than true: not because they tell us that dragons exist,
-> but because they tell us that dragons can be beaten.
+> 童话故事是无比真实的：不是因为它告诉我们龙的存在，
+> 而是因为它告诉我们龙可以被击败。
 >
-> <cite>G.K. Chesterton by way of Neil Gaiman, <em>Coraline</em></cite>
+> <cite name="translator_note1">G.K. Chesterton by way of Neil Gaiman, <em>Coraline</em></cite>
 
-I'm really excited we're going on this journey together. This is a book on
-implementing interpreters for programming languages. It's also a book on how to
-design a language worth implementing. It's the book I wish I'd had when I first
-started getting into languages, and it's the book I've been writing in my <span
-name="head">head</span> for nearly a decade.
+<aside name="translator_note1">
+
+译者注：《卡罗琳》为尼尔·盖曼一部玄幻恐怖作品。
+
+</aside>
+
+我真的很兴奋我们能一起踏上这段旅程。这是一本关于为编程语言实现解释器的书。
+它也是一本关于如何设计一种值得实现的语言的书。
+我刚开始接触编程语言的时候就希望我可以写出这本书，这本书我在<span name="head">脑子</span>里已经写了将近十年了。
 
 <aside name="head">
 
-To my friends and family, sorry I've been so absentminded!
+致我的朋友和家人，抱歉我一直忽略你们！
 
 </aside>
 
