@@ -2,6 +2,8 @@ Here is a complete grammar for Lox. The chapters that introduce each part of the
 language include the grammar rules there, but this collects them all into one
 place.
 
+这里是完整的 `Lox` 语法。包括这里以及其它章节所介绍的语法规则，均汇总到这里。
+
 ## Syntax Grammar
 
 The syntactic grammar is used to parse the linear sequence of tokens into the

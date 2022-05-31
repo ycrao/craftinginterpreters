@@ -102,7 +102,6 @@ class Book {
           chapterNumber = chapterIndex.toString();
           chapterIndex++;
         }
-
         var page = Page(chapter, partPage, chapterNumber, pages.length);
         pages.add(page);
         if (partPage != null) {

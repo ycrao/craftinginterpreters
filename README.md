@@ -21,7 +21,8 @@
 make get
 make
 make book 
-make serve
+make serve 
+# alias as `dart build/build.dart.snapshot --serve`
 ```
 
 生成的译文静态页面位于 [site_zh](./site_zh/) 文件夹下，原始英文静态页面位于老的 [site](./site/) 文件夹下不受影响。

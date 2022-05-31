@@ -30,7 +30,7 @@ of this chapter, we'll have a full-featured, fast scanner that can take any
 string of Lox source code and produce the tokens that we'll feed into the parser
 in the next chapter.
 
-## The Interpreter Framework
+## 解释器框架
 
 Since this is our first real chapter, before we get to actually scanning some
 code we need to sketch out the basic shape of our interpreter, jlox. Everything
@@ -92,7 +92,7 @@ It's not super useful yet since we haven't written the interpreter, but baby
 steps, you know? Right now, it prints out the tokens our forthcoming scanner
 will emit so that we can see if we're making progress.
 
-### Error handling
+### 错误处理
 
 While we're setting things up, another key piece of infrastructure is *error
 handling*. Textbooks sometimes gloss over this because it's more a practical
@@ -213,7 +213,7 @@ process of grouping character sequences into lexemes, we also stumble upon some
 other useful information. When we take the lexeme and bundle it together with
 that other data, the result is a token. It includes useful stuff like:
 
-### Token type
+### Token类型
 
 Keywords are part of the shape of the language's grammar, so the parser often
 has code like, "If the next token is `while` then do..." That means the parser

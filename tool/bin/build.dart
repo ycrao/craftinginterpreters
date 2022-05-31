@@ -48,7 +48,7 @@ void _buildPages({bool skipUpToDate = false}) {
   DateTime dependenciesModified;
   if (skipUpToDate) {
     dependenciesModified = _mostRecentlyModified(
-        ["asset/mustache/*.html", "c/*.{c,h}", "java/**.java"]);
+        ["asset_zh/mustache/*.html", "c/*.{c,h}", "java/**.java"]);
   }
 
   var proseWords = 0;
@@ -136,9 +136,9 @@ List<int> _buildPage(Book book, Mustache mustache, Page page,
 
 /// Process each SASS file.
 void _buildSass({bool skipUpToDate = false}) {
-  var moduleModified = _mostRecentlyModified(["asset/sass/*.scss"]);
+  var moduleModified = _mostRecentlyModified(["asset_zh/sass/*.scss"]);
 
-  for (var source in Glob("asset/*.scss").listSync()) {
+  for (var source in Glob("asset_zh/*.scss").listSync()) {
     var scssPath = p.normalize(source.path);
     var cssPath =
         p.join("site_zh", p.basenameWithoutExtension(source.path) + ".css");

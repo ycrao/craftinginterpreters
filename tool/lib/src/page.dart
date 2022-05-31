@@ -11,6 +11,9 @@ class Page {
   /// The title of this page.
   final String title;
 
+  /// The translated title of this page.
+  /// final String translatedTitle;
+
   /// The chapter or part number, like "12", "II", or "".
   final String numberString;
 

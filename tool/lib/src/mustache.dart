@@ -13,10 +13,64 @@ class Mustache {
   /// The directory where template files can be found.
   final String _templateDirectory;
 
+  final tableOfChineseContents = {
+    /// 前言
+    '': '',
+    'Crafting Interpreter': 'Crafting Interpreter',
+    'Dedication': '献辞',
+    'Acknowledgements': '致谢',
+    'Table of Contents': '目录',
+
+    /// 欢迎
+    'Welcome': '欢迎',
+    'Introduction': '入门指导',
+    'A Map of the Territory': '领地地图',
+    'The Lox Language': 'Lox 语言',
+
+    /// 一个遍历树解释器
+    'A Tree-Walk Interpreter': '一个遍历树解释器',
+    'Scanning': '扫描',
+    'Representing Code': '代表性代码',
+    'Parsing Expressions': '解析表达式',
+    'Evaluating Expressions': '求值表达式',
+    'Statements and State': '申明与状态',
+    'Control Flow': '条件语句',
+    'Functions': '函数',
+    'Resolving and Binding': '解析与绑定',
+    'Classes': '类',
+    'Inheritance': '继承',
+
+    /// 一个字节码虚拟机
+    'A Bytecode Virtual Machine': '一个字节码虚拟机',
+    'Chunks of Bytecode': '字节码块',
+    'A Virtual Machine': '虚拟机',
+    'Scanning on Demand': '按需扫描',
+    'Compiling Expressions': '编译表达式',
+    'Types of Values': '数值类型',
+    'Strings': '字符串',
+    'Hash Tables': '哈希表',
+    'Global Variables': '全局变量',
+    'Local Variables': '局部变量',
+    'Jumping Back and Forth': '来回跳跃',
+    'Calls and Functions': '调用与函数',
+    'Closures': '闭包',
+    'Garbage Collection': '垃圾回收机制',
+    'Classes and Instances': '类与实例',
+    'Methods and Initializers': '方法与初始化函数',
+    'Superclasses': '超类',
+    'Optimization': '优化',
+
+    /// 后记
+    'Backmatter': '后记',
+    'Appendix I': '附录 I',
+    'Appendix II': '附录 II',
+  };
+
   final Map<String, Template> _templates = {};
 
   Mustache([String templateDirectory])
-      : _templateDirectory = templateDirectory ?? p.join("asset", "mustache");
+      : _templateDirectory =
+            templateDirectory ?? p.join("asset_zh", "mustache");
 
   String render(Book book, Page page, String body, {String template}) {
     var part = page.part?.title;
@@ -51,7 +105,7 @@ class Mustache {
       "is_chapter": part != null,
       "is_part": part == null && page.title != null && !isFrontmatter,
       "is_frontmatter": isFrontmatter,
-      "title": page.title,
+      "title": tableOfChineseContents[page.title],
       "part": part,
       "body": body,
       "sections": _makeSections(page),
