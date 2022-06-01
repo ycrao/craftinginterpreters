@@ -34,7 +34,7 @@ make serve
 | F. | Frontmatter | 前言 | - |
 |  ┣F1. | [Dedication](https://craftinginterpreters.com/dedication.html) | [献辞](https://craftinginterpreters-zh.vercel.app/dedication.html) | ✅ |
 |  ┗F2. | [Acknowledgements](https://craftinginterpreters.com/acknowledgements.html) | [致谢](https://craftinginterpreters-zh.vercel.app/acknowledgements.html) | ✅ |
-| I. | Welcome | 欢迎 | [ ] |
+| I. | [Welcome](https://craftinginterpreters.com/welcome.html) | [欢迎](https://craftinginterpreters-zh.vercel.app/welcome.html) | [ ] |
 |  ┣1. | Introduction | 入门指导 | [ ] |
 |  ┣2. | A Map of the Territory | 领地地图 | [ ] |
 |  ┗3. | The Lox Language | Lox 语言 | [ ] |
